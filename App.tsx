@@ -33,11 +33,11 @@ export default function App() {
   return (
     <GluestackUIProvider config={config}>
       <SafeAreaView>
-
         <Box width="100%" justifyContent="center" alignItems="center">
           <Heading>Classes</Heading>
           <ScrollView width="100%" height="100%">
             <VStack>
+
               {classes.map((c: Class) => {
                 return <Box
                   key={c.id}
@@ -51,15 +51,13 @@ export default function App() {
                   $dark-bg="$backgroundDark900"
                   $dark-borderColor="$borderDark800"
                 >
-                  <Center>
 
+                  <Center>
                     <Text m="$2">{c.ClassName}</Text>
                   </Center>
                 </Box>
               })}
-              {/*{classes.map((c: any) => {*/}
-              {/*  return <Text>{JSON.stringify(c)}</Text>*/}
-              {/*})}*/}
+
             </VStack>
           </ScrollView>
           <StatusBar style="auto"/>
