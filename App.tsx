@@ -6,7 +6,8 @@ import {app} from './firebaseConfig';
 import 'firebase/firestore';
 
 import {GluestackUIProvider, Text, Box, Heading, VStack, ScrollView, Center} from '@gluestack-ui/themed';
-import {config} from '@gluestack-ui/config'; // Optional if you want to use default theme
+import {config} from '@gluestack-ui/config';
+import {SafeAreaProvider, useSafeAreaInsets} from "react-native-safe-area-context"; // Optional if you want to use default theme
 
 function AppGlue() {
   return (
@@ -16,6 +17,50 @@ function AppGlue() {
       </Box>
     </GluestackUIProvider>
   );
+}
+
+type ClassesProps = {
+  classes: Class[]
+}
+
+const Classes = ({classes}: ClassesProps) => {
+
+  const insets = useSafeAreaInsets();
+  // return (
+  //   <View style={{ flex: 1, paddingTop: insets.top }}>
+
+  return <View style={{paddingTop: insets.top}}>
+    <Box width="100%" justifyContent="center" alignItems="center">
+      <Heading>Classes</Heading>
+      <ScrollView width="100%" height="100%">
+        <VStack>
+
+          {classes && classes.map((c: Class) => {
+            return <Box
+              key={c.id}
+              maxWidth="$full"
+              borderColor="$borderLight200"
+              borderRadius="$lg"
+              borderWidth="$1"
+              my="$1"
+              py="$2"
+              overflow="hidden"
+              $base-mx="$5"
+              $dark-bg="$backgroundDark900"
+              $dark-borderColor="$borderDark800"
+            >
+
+              {/*<Center>*/}
+              <Heading m="$2" fontSize="$lg">{c.ClassName}</Heading>
+              {/*</Center>*/}
+            </Box>
+          })}
+
+        </VStack>
+      </ScrollView>
+      <StatusBar style="auto"/>
+    </Box>
+  </View>;
 }
 
 export default function App() {
@@ -32,37 +77,9 @@ export default function App() {
 
   return (
     <GluestackUIProvider config={config}>
-      <SafeAreaView>
-        <Box width="100%" justifyContent="center" alignItems="center">
-          <Heading>Classes</Heading>
-          <ScrollView width="100%" height="100%">
-            <VStack>
-
-              {classes.map((c: Class) => {
-                return <Box
-                  key={c.id}
-                  maxWidth="$full"
-                  borderColor="$borderLight200"
-                  borderRadius="$lg"
-                  borderWidth="$1"
-                  my="$1"
-                  overflow="hidden"
-                  $base-mx="$5"
-                  $dark-bg="$backgroundDark900"
-                  $dark-borderColor="$borderDark800"
-                >
-
-                  <Center>
-                    <Text m="$2">{c.ClassName}</Text>
-                  </Center>
-                </Box>
-              })}
-
-            </VStack>
-          </ScrollView>
-          <StatusBar style="auto"/>
-        </Box>
-      </SafeAreaView>
+      <SafeAreaProvider>
+          <Classes classes={classes}/>
+      </SafeAreaProvider>
     </GluestackUIProvider>
   )
 }
