@@ -7,7 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "tsc": "tsc",
+    "tsc": "tsc"
   },
   "dependencies": {
     "expo": "~49.0.15",
