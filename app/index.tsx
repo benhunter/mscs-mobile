@@ -2,7 +2,7 @@ import {collection, getDocs, getFirestore} from "firebase/firestore";
 import {useEffect, useState} from "react";
 import {StatusBar} from 'expo-status-bar';
 import {SafeAreaView, StyleSheet, View} from 'react-native';
-import {app} from './firebaseConfig';
+import {app} from '../firebaseConfig';
 import 'firebase/firestore';
 
 import {GluestackUIProvider, Text, Box, Heading, VStack, ScrollView, Center} from '@gluestack-ui/themed';
@@ -29,37 +29,46 @@ const Classes = ({classes}: ClassesProps) => {
   // return (
   //   <View style={{ flex: 1, paddingTop: insets.top }}>
 
-  return <View style={{paddingTop: insets.top}}>
-    <Box width="100%" justifyContent="center" alignItems="center">
-      <Heading>Classes</Heading>
-      <ScrollView width="100%" height="100%">
-        <VStack>
+  return <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}}>
+    {/*<Box width="100%" justifyContent="center" alignItems="center">*/}
+    <StatusBar style="auto"/>
+    <Heading
+      mx="$8"
+      mt="$1"
+      mb="$4"
+      fontSize="$2xl"
+    >Classes</Heading>
+    <ScrollView width="100%" height="100%" pb="$0" mb="$16">
+      <VStack
+        pb="$16"
+      >
 
-          {classes && classes.map((c: Class) => {
-            return <Box
-              key={c.id}
-              maxWidth="$full"
-              borderColor="$borderLight200"
-              borderRadius="$lg"
-              borderWidth="$1"
-              my="$1"
-              py="$2"
-              overflow="hidden"
-              $base-mx="$5"
-              $dark-bg="$backgroundDark900"
-              $dark-borderColor="$borderDark800"
-            >
+        {classes && classes.map((c: Class) => {
+          return <Box
+            key={c.id}
+            maxWidth="$full"
+            borderColor="$borderLight200"
+            borderRadius="$lg"
+            borderWidth="$1"
+            my="$2"
+            py="$1"
+            px="$2"
+            overflow="hidden"
+            $base-mx="$5"
+            $dark-bg="$backgroundDark900"
+            $dark-borderColor="$borderDark800"
+          >
 
-              {/*<Center>*/}
-              <Heading m="$2" fontSize="$lg">{c.ClassName}</Heading>
-              {/*</Center>*/}
-            </Box>
-          })}
+            {/*<Center>*/}
+            <Heading m="$0" fontSize="$md">{c.ClassName}</Heading>
+            <Text mx="$2">{c.CourseNumber}</Text>
+            {/*</Center>*/}
+          </Box>
+        })}
 
-        </VStack>
-      </ScrollView>
-      <StatusBar style="auto"/>
-    </Box>
+      </VStack>
+    </ScrollView>
+    {/*</Box>*/}
   </View>;
 }
 
@@ -78,7 +87,7 @@ export default function App() {
   return (
     <GluestackUIProvider config={config}>
       <SafeAreaProvider>
-          <Classes classes={classes}/>
+        <Classes classes={classes}/>
       </SafeAreaProvider>
     </GluestackUIProvider>
   )
@@ -86,7 +95,9 @@ export default function App() {
 
 type Class = {
   ClassName: string,
+  CourseNumber: string,
   id: string,
+  debug: string
 }
 
 const getClasses = async () => {
@@ -100,7 +111,8 @@ const getClasses = async () => {
   const classes = querySnapshot.docs.map((doc) => {
     const data = doc.data();
     const id = doc.id;
-    return {...data, id} as Class;
+    const debug = `${doc.id} => ${JSON.stringify(doc.data())}`;
+    return {...data, id, debug} as Class;
   });
   return classes;
 };
