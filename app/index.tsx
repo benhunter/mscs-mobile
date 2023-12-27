@@ -1,21 +1,57 @@
 import {collection, getDocs, getFirestore} from "firebase/firestore";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {StatusBar} from 'expo-status-bar';
-import {SafeAreaView, StyleSheet, View} from 'react-native';
+import {SafeAreaView, StyleSheet } from 'react-native';
 import {app} from '../firebaseConfig';
 import 'firebase/firestore';
 
-import {GluestackUIProvider, Text, Box, Heading, VStack, ScrollView, Center} from '@gluestack-ui/themed';
+import { GluestackUIProvider, Text, Box, Heading, VStack, ScrollView, Center, Image, View} from '@gluestack-ui/themed';
 import {config} from '@gluestack-ui/config';
 import {SafeAreaProvider, useSafeAreaInsets} from "react-native-safe-area-context"; // Optional if you want to use default theme
+import {Stack} from "expo-router";
 
-function AppGlue() {
+export default function App() {
+  let [classes, setClasses] = useState<Class[]>([])
+
+  useEffect(() => {
+    getClasses().then((classes) => {
+      classes.sort((a, b) => {
+        return a.ClassName.localeCompare(b.ClassName)
+      });
+      setClasses(classes)
+    })
+  }, [])
+
   return (
     <GluestackUIProvider config={config}>
-      <Box width="100%" justifyContent="center" alignItems="center">
-        <Text>Open up App.js to start working on your app!</Text>
-      </Box>
+      <SafeAreaProvider>
+        <Stack.Screen
+          options={{
+            // headerShown: false,
+            // https://reactnavigation.org/docs/headers#setting-the-header-title
+            title: 'Classes',
+            // https://reactnavigation.org/docs/headers#adjusting-header-styles
+            // headerStyle: {backgroundColor: 'rgba(94,94,94,0.67)'},
+            // headerTintColor: '#fff',
+            // headerTitleStyle: {
+            //   fontWeight: 'bold',
+            // },
+            // https://reactnavigation.org/docs/headers#replacing-the-title-with-a-custom-component
+            // headerTitle: props => <LogoTitle {...props} />,
+          }}
+        />
+        <Classes classes={classes}/>
+      </SafeAreaProvider>
     </GluestackUIProvider>
+  )
+}
+
+function LogoTitle() {
+  return (
+    <Image
+      style={{width: 50, height: 50}}
+      source={{uri: 'https://reactnative.dev/img/tiny_logo.png'}}
+    />
   );
 }
 
@@ -29,15 +65,17 @@ const Classes = ({classes}: ClassesProps) => {
   // return (
   //   <View style={{ flex: 1, paddingTop: insets.top }}>
 
-  return <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}}>
+  return <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}}
+               // bg="red"
+  >
     {/*<Box width="100%" justifyContent="center" alignItems="center">*/}
-    <StatusBar style="auto"/>
-    <Heading
-      mx="$8"
-      mt="$1"
-      mb="$4"
-      fontSize="$2xl"
-    >Classes</Heading>
+    {/*<StatusBar style="auto"/>*/}
+    {/*<Heading*/}
+    {/*  mx="$8"*/}
+    {/*  mt="$1"*/}
+    {/*  mb="$4"*/}
+    {/*  fontSize="$2xl"*/}
+    {/*>Classes</Heading>*/}
     <ScrollView width="100%" height="100%" pb="$0" mb="$16">
       <VStack
         pb="$16"
@@ -45,6 +83,7 @@ const Classes = ({classes}: ClassesProps) => {
 
         {classes && classes.map((c: Class) => {
           return <Box
+            bg="white"
             key={c.id}
             maxWidth="$full"
             borderColor="$borderLight200"
@@ -70,27 +109,6 @@ const Classes = ({classes}: ClassesProps) => {
     </ScrollView>
     {/*</Box>*/}
   </View>;
-}
-
-export default function App() {
-  let [classes, setClasses] = useState<Class[]>([])
-
-  useEffect(() => {
-    getClasses().then((classes) => {
-      classes.sort((a, b) => {
-        return a.ClassName.localeCompare(b.ClassName)
-      });
-      setClasses(classes)
-    })
-  }, [])
-
-  return (
-    <GluestackUIProvider config={config}>
-      <SafeAreaProvider>
-        <Classes classes={classes}/>
-      </SafeAreaProvider>
-    </GluestackUIProvider>
-  )
 }
 
 type Class = {
