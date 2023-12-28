@@ -1,24 +1,32 @@
 import {collection, getDocs, getFirestore} from "firebase/firestore";
 import React, {useEffect, useState} from "react";
-import {StatusBar} from 'expo-status-bar';
-import {SafeAreaView, StyleSheet } from 'react-native';
 import {app} from '../firebaseConfig';
 import 'firebase/firestore';
 
-import { GluestackUIProvider, Text, Box, Heading, VStack, ScrollView, Center, Image, View} from '@gluestack-ui/themed';
+import {
+  Box,
+  GluestackUIProvider,
+  Heading,
+  Image,
+  Pressable,
+  ScrollView,
+  Text,
+  View,
+  VStack
+} from '@gluestack-ui/themed';
 import {config} from '@gluestack-ui/config';
 import {SafeAreaProvider, useSafeAreaInsets} from "react-native-safe-area-context"; // Optional if you want to use default theme
-import {Stack} from "expo-router";
+import {Link, Stack} from "expo-router";
 
 export default function App() {
-  let [classes, setClasses] = useState<Class[]>([])
+  let [courses, setCourses] = useState<Course[]>([])
 
   useEffect(() => {
     getClasses().then((classes) => {
       classes.sort((a, b) => {
         return a.ClassName.localeCompare(b.ClassName)
       });
-      setClasses(classes)
+      setCourses(classes)
     })
   }, [])
 
@@ -40,7 +48,7 @@ export default function App() {
             // headerTitle: props => <LogoTitle {...props} />,
           }}
         />
-        <Classes classes={classes}/>
+        <Classes courses={courses}/>
       </SafeAreaProvider>
     </GluestackUIProvider>
   )
@@ -55,19 +63,57 @@ function LogoTitle() {
   );
 }
 
-type ClassesProps = {
-  classes: Class[]
+type CourseCardProps = {
+  course: Course
 }
 
-const Classes = ({classes}: ClassesProps) => {
+const CourseCard = ({course}: CourseCardProps) => {
+  return <Pressable
+    onPress={() => {
+      console.log(`Pressed ${course.ClassName}`)
+    }}
+    key={course.id}>
+    <Link href={{pathname: `/course/${course.id}`}} asChild>
+
+      <Box
+        bg="white"
+        key={course.id}
+        maxWidth="$full"
+        borderColor="$borderLight200"
+        borderRadius="$lg"
+        borderWidth="$1"
+        my="$1"
+        mx="$0"
+        py="$2"
+        px="$4"
+        overflow="hidden"
+        // $base-mx="$1"
+        $dark-bg="$backgroundDark900"
+        $dark-borderColor="$borderDark800"
+      >
+
+        {/*<Center>*/}
+        <Heading m="$0" fontSize="$md">{course.ClassName}</Heading>
+        <Text mx="$2">{course.CourseNumber}</Text>
+        {/*</Center>*/}
+      </Box>
+    </Link>
+  </Pressable>
+}
+
+type ClassesProps = {
+  courses: Course[]
+}
+
+const Classes = ({courses}: ClassesProps) => {
 
   const insets = useSafeAreaInsets();
   // return (
   //   <View style={{ flex: 1, paddingTop: insets.top }}>
 
   return <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}}
-               // bg="red"
-    mx="$0"
+    // bg="red"
+               mx="$0"
   >
     {/*<Box width="100%" justifyContent="center" alignItems="center">*/}
     {/*<StatusBar style="auto"/>*/}
@@ -83,29 +129,8 @@ const Classes = ({classes}: ClassesProps) => {
         mx="$2"
       >
 
-        {classes && classes.map((c: Class) => {
-          return <Box
-            bg="white"
-            key={c.id}
-            maxWidth="$full"
-            borderColor="$borderLight200"
-            borderRadius="$lg"
-            borderWidth="$1"
-            my="$1"
-            mx="$0"
-            py="$2"
-            px="$4"
-            overflow="hidden"
-            // $base-mx="$1"
-            $dark-bg="$backgroundDark900"
-            $dark-borderColor="$borderDark800"
-          >
-
-            {/*<Center>*/}
-            <Heading m="$0" fontSize="$md">{c.ClassName}</Heading>
-            <Text mx="$2">{c.CourseNumber}</Text>
-            {/*</Center>*/}
-          </Box>
+        {courses && courses.map((c: Course) => {
+          return <CourseCard course={c}/>
         })}
 
       </VStack>
@@ -114,7 +139,7 @@ const Classes = ({classes}: ClassesProps) => {
   </View>;
 }
 
-type Class = {
+type Course = {
   ClassName: string,
   CourseNumber: string,
   id: string,
@@ -129,11 +154,10 @@ const getClasses = async () => {
   //   console.log(`${doc.id} => ${JSON.stringify(doc.data())}`);
   // });
 
-  const classes = querySnapshot.docs.map((doc) => {
+  return querySnapshot.docs.map((doc) => {
     const data = doc.data();
     const id = doc.id;
     const debug = `${doc.id} => ${JSON.stringify(doc.data())}`;
-    return {...data, id, debug} as Class;
+    return {...data, id, debug} as Course;
   });
-  return classes;
 };
