@@ -67,6 +67,7 @@ const Classes = ({classes}: ClassesProps) => {
 
   return <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}}
                // bg="red"
+    mx="$0"
   >
     {/*<Box width="100%" justifyContent="center" alignItems="center">*/}
     {/*<StatusBar style="auto"/>*/}
@@ -76,9 +77,10 @@ const Classes = ({classes}: ClassesProps) => {
     {/*  mb="$4"*/}
     {/*  fontSize="$2xl"*/}
     {/*>Classes</Heading>*/}
-    <ScrollView width="100%" height="100%" pb="$0" mb="$16">
+    <ScrollView width="100%" height="100%" pb="$0" mb="$16" mx="$0">
       <VStack
         pb="$16"
+        mx="$2"
       >
 
         {classes && classes.map((c: Class) => {
@@ -89,11 +91,12 @@ const Classes = ({classes}: ClassesProps) => {
             borderColor="$borderLight200"
             borderRadius="$lg"
             borderWidth="$1"
-            my="$2"
-            py="$1"
-            px="$2"
+            my="$1"
+            mx="$0"
+            py="$2"
+            px="$4"
             overflow="hidden"
-            $base-mx="$5"
+            // $base-mx="$1"
             $dark-bg="$backgroundDark900"
             $dark-borderColor="$borderDark800"
           >
