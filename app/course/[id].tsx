@@ -1,11 +1,22 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Text} from '@gluestack-ui/themed';
-import {useLocalSearchParams} from 'expo-router'
+import {Stack, useLocalSearchParams} from 'expo-router'
+
+import {useCourses} from "../../components/Courses";
 
 export default function () {
   const {id} = useLocalSearchParams()
+  const courses = useCourses()
 
-  return <CourseDetails courseId={id as string}/>
+  return <>
+    <Stack.Screen
+      options={{
+        // headerShown: false,
+        title: 'TEST',
+      }}
+    />
+    <CourseDetails courseId={id as string}/>
+  </>;
 }
 
 type CourseDetailsProps = {
@@ -13,5 +24,16 @@ type CourseDetailsProps = {
 }
 
 function CourseDetails(props: CourseDetailsProps) {
-  return <Text>Course</Text>
+  useEffect(() => {
+    console.log('CourseDetails', props.courseId)
+  }, []);
+  return <>
+    <Stack.Screen
+      options={{
+        // headerShown: false,
+        title: 'TEST',
+      }}
+    />
+    <Text>Course ID: {props.courseId}</Text>
+  </>;
 }
