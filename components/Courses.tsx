@@ -6,9 +6,11 @@ import {Link} from "expo-router";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 
 export type Course = {
+  id: string,
+  Teacher: string;
   ClassName: string,
   CourseNumber: string,
-  id: string,
+  category: string,
   debug: string
 }
 

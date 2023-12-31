@@ -1,0 +1,64 @@
+{
+  "RatingAvg": 4.9196428571428585,
+  "BookUsefulnessCount": 18,
+  "PiazzaCommunityCount": 18,
+  "dataScience": {
+    "isDataScience": false
+  },
+  "Prerequisites": "",
+  "WorkloadAvg": 10.839285714285712,
+  "semesters": {
+    "Spring 2022": 9,
+    "Spring 2021": 4,
+    "Spring 2020": 5,
+    "Fall 2020": 3,
+    "Spring 2023": null,
+    "Fall 2019": 2,
+    "Summer 2022": 3
+  },
+  "languages": [
+    "C"
+  ],
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Systems"
+  },
+  "Teacher": "Vijay Chidambaram",
+  "Textbook": true,
+  "RatingCount": 28,
+  "GraphicColor": "linear-gradient(180deg,rgba(248,151,31,0.71) 0%,rgba(191,87,0,0.84) 100%)",
+  "BookUsefulnessAvg": 5.666666666666666,
+  "ClassName": "Advanced Operating Systems",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Operating%20Systems_0.png)",
+  "season": {
+    "summer": true,
+    "fall": true,
+    "spring": true
+  },
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CN2Q65ZB5",
+  "ProfessorQualityCount": 18,
+  "PiazzaCommunityAvg": 5.222222222222221,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/operating-systems_course-card.png",
+  "ProfessorQualityAvg": 5.222222222222221,
+  "meta": {
+    "exams": "There's one midterm and one final",
+    "projects": "The course has 5 projects, all written in C. \nProjects 2-5 focus on the xv6 virtual OS.",
+    "proofs": "",
+    "homework": "",
+    "peer reviewed": ""
+  },
+  "CourseNumber": "CS 380L",
+  "DifficultyCount": 4.177519121709592,
+  "category": "Systems",
+  "LectureQualityAvg": 4.555555555555555,
+  "DifficultyAvg": 4.177519121709592,
+  "review": "Pros:\n1. Not to difficult.\n2. \n3. \n\nCons:\n1. Class is slow.\n2. Projects are not covered very well.\n3. \n\nDetailed Review:\n",
+  "WorkloadCount": 28,
+  "LectureQualityCount": 18,
+  "lastUpdated": {
+    "seconds": 1698264276,
+    "nanoseconds": 483000000
+  },
+  "SlackChannel": "advanced-operating-systems",
+  "TextbookName": "\"Operating Systems: The Three Easy Pieces\" By Remzi Arpaci-dusseau"
+}

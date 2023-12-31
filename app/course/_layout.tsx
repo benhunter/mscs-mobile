@@ -1,5 +1,6 @@
 import {Slot, Stack} from 'expo-router';
 import React from "react";
+import {View} from "@gluestack-ui/themed";
 
 export default function HomeLayout() {
   return <>
@@ -8,6 +9,11 @@ export default function HomeLayout() {
         title: "Course Details",
       }}
     />
-    <Slot/>
+    <View
+      style={{width: '100%', height: '100%'}}
+      bg="white"
+    >
+      <Slot/>
+    </View>
   </>;
 }

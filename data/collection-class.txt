@@ -1,0 +1,1410 @@
+0Quryo4oBugd0MGh7mPs => {
+  "computerScience": {
+    "category": "Applications",
+    "isComputerScience": true
+  },
+  "season": {
+    "summer": false,
+    "spring": true,
+    "fall": true
+  },
+  "review": "Pros:\n1.  Fun assignments\n2.  Interesting Lectures\n3. Helpful TA's\n4. You always know your grades before you submit. \n\nCons:\n1.  If you don't know Pytorch I could see this class moving quick. \n2.  \n3. \n\nDetailed Review:\nThis was a great course. All your grades are known before you submit the assignment (except on the final project) and it is easy enough to get an A if you put in the work. I would strongly suggest you take DL before this course though. Not knowing Pytorch could easily add 5-10 hours per assignment. I loved the assignments and found them quite interesting. The final project is nice because you can take it a lot of different directions. Just make sure you watch the lectures and schedule time to work on the homeworks and you will be good to go. ",
+  "Teacher": "Greg Durrett",
+  "PiazzaCommunityAvg": 6.357142857142856,
+  "DifficultyCount": 4.460402358319471,
+  "WorkloadCount": 29,
+  "Prerequisites": "Deep Learning helps but is not mandatory",
+  "lastUpdated": {
+    "seconds": 1703279106,
+    "nanoseconds": 77000000
+  },
+  "DifficultyAvg": 4.460402358319471,
+  "SlackChannel": "natural-language-processing",
+  "GraphicColor": "linear-gradient(0deg,rgba(51,63,72,0.71) 0%,rgba(214,210,196,0.84) 100%)",
+  "RatingCount": 29,
+  "dataScience": {
+    "isDataScience": true,
+    "category": "elective"
+  },
+  "CourseNumber": "CS 388",
+  "RatingAvg": 6.258620689655172,
+  "Textbook": true,
+  "SlackChannelLink": "https://utmscso.slack.com/archives/C01DLKD54SG",
+  "ProfessorQualityCount": 28,
+  "BookUsefulnessCount": 29,
+  "languages": [
+    "Python"
+  ],
+  "ClassName": "Natural Language Processing",
+  "WorkloadAvg": 11.758620689655173,
+  "semesters": {
+    "Spring 2021": 7,
+    "Fall 2023": 9,
+    "Fall 2021": 7,
+    "Fall 2022": 5,
+    "Spring 2020": 1
+  },
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/nlp_icon.png)",
+  "meta": {
+    "homework": "Short quizzes included with lectures (6% of final grade). No limit on number of attempts.",
+    "proofs": "",
+    "exams": "One Mid-term exam (25% of final grade)",
+    "projects": "Four homework assignments (44% of final grade) and one final project (25% of grade). You can work in groups of two for the final.",
+    "peer reviewed": "Homework 4 and the final project require peer review, but final grades are assigned by course staff."
+  },
+  "LectureQualityCount": 28,
+  "category": "elective",
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/csms_nlp_course-card.png",
+  "LectureQualityAvg": 5.821428571428571,
+  "ProfessorQualityAvg": 6.357142857142856,
+  "PiazzaCommunityCount": 28,
+  "BookUsefulnessAvg": 0.5172413793103449,
+  "TextbookName": "Natural Language Processing By Jacob Eisenstein"
+}
+56UCMTp9LJJr7v78wRk2 => {
+  "BookUsefulnessAvg": 1.208333333333333,
+  "SlackChannelLink": "",
+  "meta": {
+    "exams": "6 quizzes, 30-50 minutes each. 30% of total grade.",
+    "proofs": "",
+    "projects": "6 programming projects. Projects 1-3 can be done in groups, 4-6 are individual. 70% of total grade.",
+    "peer reviewed": "",
+    "homework": ""
+  },
+  "SlackChannel": "",
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "dataScience": {
+    "isDataScience": true,
+    "category": "Foundations"
+  },
+  "LectureQualityCount": 24,
+  "Prerequisites": "One undergrad level course of programming.",
+  "CourseNumber": "DSC 395T",
+  "PiazzaCommunityCount": 24,
+  "BookUsefulnessCount": 24,
+  "WorkloadAvg": 15.070833333333326,
+  "ProfessorQualityCount": 24,
+  "LectureQualityAvg": 5.375,
+  "semesters": {
+    "Spring 2022": 14,
+    "Fall 2023": 1,
+    "Fall 2022": 4,
+    "Summer 2022": 1,
+    "Spring 2023": null
+  },
+  "ClassName": "Data Structures & Algorithms",
+  "RatingCount": 24,
+  "Teacher": "Calvin Lin",
+  "TextbookName": "Weiss, Data Structures And Problem Solving Using Java, 4e; Miller, Ranum, Problem Solving With Algorithms And Data Structures Using Python; Reitz, Schlusser, Hitchhiker's Guide To Python. All Textbooks Optional.",
+  "WorkloadCount": 24,
+  "lastUpdated": {
+    "seconds": 1703272701,
+    "nanoseconds": 628000000
+  },
+  "computerScience": {
+    "category": "",
+    "isComputerScience": false
+  },
+  "languages": [
+    "Python"
+  ],
+  "DifficultyAvg": 5.018296889795298,
+  "GraphicUrl": "url(https://ms-datascience.utexas.edu/sites/default/files/2020-09/probability-hero.png)",
+  "category": "Foundations",
+  "PiazzaCommunityAvg": 5.395833333333334,
+  "Textbook": true,
+  "GraphicThumbnail": "https://ms-datascience.utexas.edu/sites/default/files/2020-09/probability-card.png",
+  "DifficultyCount": 5.018296889795298,
+  "ProfessorQualityAvg": 5.395833333333334,
+  "RatingAvg": 5.145833333333334,
+  "season": {
+    "summer": true,
+    "fall": true,
+    "spring": true
+  }
+}
+7Kb4B88NfzgU1TAKN3aH => {
+  "WorkloadAvg": 3.421052631578948,
+  "CourseNumber": "CS 395T",
+  "DifficultyAvg": 4.817275850916085,
+  "meta": {
+    "homework": "6 assignments (10% of grade), lowest is dropped so you get minimum 10%.",
+    "projects": "1 final project (40% of grade)",
+    "exams": "",
+    "proofs": "",
+    "peer reviewed": ""
+  },
+  "ProfessorQualityCount": 19,
+  "SlackChannelLink": "",
+  "BookUsefulnessAvg": 0.5789473684210527,
+  "Teacher": "Junfeng Jiao",
+  "Textbook": false,
+  "languages": [
+    "Python"
+  ],
+  "LectureQualityAvg": 3.2631578947368416,
+  "WorkloadCount": 19,
+  "PiazzaCommunityCount": 19,
+  "semesters": {
+    "Fall 2023": 7,
+    "Fall 2022": null
+  },
+  "SlackChannel": "case-studies-in-machine-learning",
+  "Prerequisites": "",
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/Csms_CSML_course_card.jpeg",
+  "RatingAvg": 3.578947368421052,
+  "LectureQualityCount": 19,
+  "dataScience": {
+    "category": "",
+    "isDataScience": false
+  },
+  "TextbookName": null,
+  "season": {
+    "spring": false,
+    "summer": false,
+    "fall": true
+  },
+  "ClassName": "Case Studies in Machine Learning",
+  "BookUsefulnessCount": 19,
+  "category": "Elective",
+  "RatingCount": 19,
+  "DifficultyCount": 4.817275850916085,
+  "GraphicColor": "linear-gradient(90deg,rgba(0,95,134,0.85) 0%,rgba(51,63,72,0.70) 100%)",
+  "PiazzaCommunityAvg": 5.157894736842106,
+  "GraphicUrl": "url('https://www.cs.utexas.edu/sites/default/files/Csms-CSML-hero.png')",
+  "ProfessorQualityAvg": 5.157894736842106,
+  "lastUpdated": {
+    "seconds": 1702781406,
+    "nanoseconds": 863000000
+  },
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Elective"
+  }
+}
+A5e1XV2pteXdggx4SqvU => {
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Systems"
+  },
+  "RatingAvg": 5.032608695652174,
+  "SlackChannelLink": "https://utmscso.slack.com/archives/C01830199QV",
+  "PiazzaCommunityCount": 12,
+  "BookUsefulnessCount": 12,
+  "DifficultyAvg": 3.4233297007114145,
+  "RatingCount": 23,
+  "dataScience": {
+    "isDataScience": false
+  },
+  "ClassName": "Android Programming",
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "semesters": {
+    "Fall 2020": 11,
+    "Spring 2020": 1,
+    "Fall 2022": 11
+  },
+  "Prerequisites": "",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Android%20Programming.png)",
+  "season": {
+    "spring": true,
+    "summer": false,
+    "fall": true
+  },
+  "PiazzaCommunityAvg": 5,
+  "DifficultyCount": 3.4233297007114145,
+  "BookUsefulnessAvg": 0.33333333333333337,
+  "ProfessorQualityAvg": 5,
+  "LectureQualityAvg": 4,
+  "wilsonScore": 0.3423719528896193,
+  "SlackChannel": "android-programming",
+  "CourseNumber": "CS 395T",
+  "meta": {
+    "homework": "There are 6 coding assignments that he calls flipped classrooms. These are much smaller than the projects and take 5-10 hours",
+    "proofs": "",
+    "peer reviewed": "The final project is peer graded",
+    "exams": "",
+    "projects": "There are 5 projects, each of which takes approx. 20 hrs"
+  },
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/csms_ap_course-card.png",
+  "WorkloadAvg": 11.304347826086957,
+  "ProfessorQualityCount": 12,
+  "Textbook": false,
+  "WorkloadCount": 23,
+  "Teacher": "Emmett Witchel",
+  "LectureQualityCount": 12,
+  "lastUpdated": {
+    "seconds": 1672626788,
+    "nanoseconds": 339000000
+  },
+  "languages": [
+    "Kotlin"
+  ],
+  "category": "Systems",
+  "TextbookName": null
+}
+AI2U2hzPFqWu3ZWZljKP => {
+  "RatingCount": 28,
+  "meta": {
+    "proofs": "Proofs by induction are frequently employed",
+    "peer reviewed": "",
+    "homework": "There are weekly homework assignments.  The homework is a mix of proofs and programming assignments.  In addition, screenshots of course progress is also required.",
+    "exams": "This course has 3 exams.  The first exam is closed notes and closed book.  The two other exams are take-home exams.",
+    "projects": ""
+  },
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/advanced-linear-algebra_course-card.png",
+  "computerScience": {
+    "category": "Theory",
+    "isComputerScience": true
+  },
+  "languages": [
+    "MATLAB"
+  ],
+  "DifficultyAvg": 4.244928112201847,
+  "LectureQualityCount": 18,
+  "Textbook": true,
+  "Prerequisites": "",
+  "CourseNumber": "CS 383C",
+  "BookUsefulnessCount": 18,
+  "ProfessorQualityCount": 18,
+  "RatingAvg": 5.785714285714285,
+  "WorkloadCount": 26,
+  "review": "The course was well organised and the instructurs and TAs were very active on supporting our learning. I like the fact that they emphasize learning more than anything else. \n\nSince I did not have a strong math background and am new to linear algebra, the materials were quite challenging, especially toward the end. I wish I studied more to get the most out of the class, but it was very hard to catch up with the pace of the class due to my full-time work and taking another course at the same time. This was my very first semester for MSCSO for me, so if anyone new to MSCSO and is willing to maximise the learning other than finishing the program asap, I recommend starting with 1 course in your first semester to see how it goes. ",
+  "BookUsefulnessAvg": 6.111111111111111,
+  "PiazzaCommunityAvg": 3.6388888888888897,
+  "dataScience": {
+    "isDataScience": false
+  },
+  "season": {
+    "fall": true,
+    "spring": true,
+    "summer": true
+  },
+  "LectureQualityAvg": 6.11111111111111,
+  "TextbookName": "Advanced Linear Algebra: Foundations To Frontiers",
+  "PiazzaCommunityCount": 18,
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Advanced%20Linear%20Algebra%20Coding%20Thing_0.png)",
+  "lastUpdated": {
+    "seconds": 1702417776,
+    "nanoseconds": 412000000
+  },
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CSQDCG678",
+  "Teacher": "Maggie Myers & Robert Van De Geijn",
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "ClassName": "Advanced Linear Algebra for Computation",
+  "ProfessorQualityAvg": 3.6388888888888897,
+  "semesters": {
+    "Spring 2020": 4,
+    "Spring 2021": 7,
+    "Fall 2020": 6,
+    "Summer 2023": 1,
+    "Spring 2023": null
+  },
+  "SlackChannel": "advanced-linear-algebra",
+  "WorkloadAvg": 13.000000000000002,
+  "DifficultyCount": 4.244928112201847,
+  "category": "Theory"
+}
+AqMWVe19wrHIZYWLdFmn => {
+  "RatingCount": 24,
+  "semesters": {
+    "Fall 2020": 7,
+    "Fall 2023": null,
+    "Fall 2022": null,
+    "Fall 2021": 4,
+    "Spring 2022": 2,
+    "Fall 2019": 3,
+    "Spring 2023": null
+  },
+  "BookUsefulnessAvg": 2.333333333333333,
+  "languages": [
+    "No Code"
+  ],
+  "WorkloadAvg": 9.499999999999998,
+  "WorkloadCount": 24,
+  "LectureQualityAvg": 4,
+  "category": "elective",
+  "Textbook": true,
+  "ClassName": "Optimization",
+  "BookUsefulnessCount": 15,
+  "computerScience": {
+    "category": "Theory",
+    "isComputerScience": true
+  },
+  "lastUpdated": {
+    "seconds": 1703279715,
+    "nanoseconds": 717000000
+  },
+  "DifficultyAvg": 4.504136761571285,
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CND3WE5PF",
+  "TextbookName": "Boyd And Vandenberghe, Convex Optimization",
+  "Prerequisites": "Undergrad calculus and linear algebra",
+  "PiazzaCommunityCount": 15,
+  "Teacher": "Sujay Sanghavi & Constantine Caramanis",
+  "season": {
+    "summer": false,
+    "fall": true,
+    "spring": true
+  },
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/optimization_course-card.png",
+  "SlackChannel": "optimization",
+  "ProfessorQualityAvg": 5.3,
+  "DifficultyCount": 4.504136761571285,
+  "GraphicColor": "linear-gradient(0deg,rgba(51,63,72,0.71) 0%,rgba(214,210,196,0.84) 100%)",
+  "PiazzaCommunityAvg": 5.3,
+  "LectureQualityCount": 15,
+  "dataScience": {
+    "isDataScience": true,
+    "category": "elective"
+  },
+  "meta": {
+    "projects": "",
+    "peer reviewed": "All homework is peer graded. 5% of final grade is based on grading quality.",
+    "proofs": "No formal proofs but everything was theory-based so be ready to write long logical explanations",
+    "exams": "There are three exams in total, with two midterms (20% of final grade each) and a final (30% of final grade).",
+    "homework": "9 homework assignments, lowest grade is dropped (25% of final grade). Homework is mostly theory-based problem sets. Coding is required for a few computational problems, but you can choose any language you like."
+  },
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Optimization_0.png)",
+  "RatingAvg": 3.2083333333333326,
+  "review": "Midway through the course right now and I'll update this review later. Decided to leave a review because there aren't many here. This is truly one miserable course - it is undoubtedly the worst course I have taken in my entire academic life. The lectures are okayish but they just go over the concepts and don't teach you how to solve problems or do proofs. The course covers a lot of ground-- on average we have about 2.5 hours of lectures a week and they are packed with new concepts and barely have any example problems. We have had a problem set due almost every week now and they have been a real task. There are questions on the problem set that are nearly impossible to solve because you won't find similar questions in the textbook and the lectures barely do any proofs. The course textbook is quite intimidating to read and since the lectures don't help much, you will have to work your way through that dreaded book. The name of the textbook is convex optimization by Boyd and Vandenberghe and is available for free online- so you can check it out. I don't understand how the previous reviews claim that they spent only 10 hrs/week because I'm easily spending 20 hrs/week on this course. The weekly work till now has been - watching and understanding the lectures, understanding the solutions released for the previous weeks problem set, grading 5 peers, deciphering the current weeks homework, trying to attend office hours, reading the textbook, reading piazza posts about clarifications regarding the homeworks (every problem set till now has had mistakes and some questions are just vague) and then finally spending hours trying to solve the homework problems. We had the midterm a few weeks ago and it was brutal to say the least. It was multiple choice so no partial credit. Most questions on the midterm were not related to the lectures, the homework or the textbook! It had many tricky questions and the options given were extremely close in correctness. To add to that, we just had one hour to complete it! So all in all, the midterm just felt like a guessing game that did not judge what we had learnt and seemed highly dependent on luck rather than knowledge of the subject. To make things worse-- 70% of the overall grade comes from such exams! The only good thing about this course is that the professor is very active on piazza and I've seen most students questions are answered within a couple hours. Seems like this course is gonna cost me $1000, a whole lot of time, points from my GPA and in the end I won't learn much either. I Definitely wouldn't take it if I could go back in time.\n\nUpdate: The second midterm was a disaster as well because nearly half the questions required knowledge of some obscure linear algebra concepts. The final was much better and actually had questions that were indeed from what we had learned this semester in this Optimization course (though a few questions still seemed unfair and thus purely dependent on luck). In the end, professor Caramanis was very generous and the class was curved quite heavily, but I still feel that the exams (which is 70% of the grade) were not a good indicator of how well we learned the subject and I still think that most of it just depended on luck. The all or nothing grading scheme didn't help either.",
+  "CourseNumber": "CS 395T",
+  "ProfessorQualityCount": 15
+}
+D6UQ2LsPB952ouc8Q0no => {
+  "BookUsefulnessAvg": 1.7,
+  "ProfessorQualityCount": 10,
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/vtz_icon.png)",
+  "Teacher": "Vijay Chidambaram",
+  "PiazzaCommunityAvg": 3.6999999999999997,
+  "DifficultyAvg": 4.3255208880136236,
+  "WorkloadCount": 10,
+  "RatingAvg": 5,
+  "SlackChannel": "virtualization",
+  "SlackChannelLink": "https://utmscso.slack.com/archives/C01RBL59EDA",
+  "ProfessorQualityAvg": 3.6999999999999997,
+  "computerScience": {
+    "category": "Elective",
+    "isComputerScience": true
+  },
+  "CourseNumber": "CS 395T",
+  "GraphicColor": "linear-gradient(0deg,rgba(51,63,72,0.85) 0%,rgba(214,210,196,0.70) 100%)",
+  "BookUsefulnessCount": 10,
+  "Textbook": true,
+  "ClassName": "Virtualization",
+  "dataScience": {
+    "category": "",
+    "isDataScience": false
+  },
+  "lastUpdated": {
+    "seconds": 1702782637,
+    "nanoseconds": 868000000
+  },
+  "LectureQualityCount": 10,
+  "semesters": {
+    "Fall 2021": 2,
+    "Fall 2022": 6,
+    "Fall 2023": null
+  },
+  "languages": [
+    "C"
+  ],
+  "category": "Elective",
+  "WorkloadAvg": 9.02,
+  "PiazzaCommunityCount": 10,
+  "LectureQualityAvg": 5,
+  "season": {
+    "summer": false,
+    "fall": true,
+    "spring": false
+  },
+  "RatingCount": 10,
+  "Prerequisites": "",
+  "meta": {
+    "projects": "Warm-up lab + 4 main labs",
+    "peer reviewed": "",
+    "proofs": "",
+    "homework": "",
+    "exams": "Midterm and a final "
+  },
+  "DifficultyCount": 4.3255208880136236,
+  "TextbookName": "Hardware And Software Support For Virtualization By Bugnion Et. Al (Provided For Free Online)",
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/csms_vtz_course-card.png"
+}
+EeVEG1BcLlx6xitt6uk7 => {
+  "Prerequisites": "Linear Algebra, Logic Course (Proofs)",
+  "languages": [
+    "No Code"
+  ],
+  "computerScience": {
+    "category": "Elective",
+    "isComputerScience": true
+  },
+  "BookUsefulnessCount": 8,
+  "LectureQualityAvg": 6.375,
+  "LectureQualityCount": 8,
+  "ProfessorQualityCount": 8,
+  "RatingCount": 8,
+  "category": "Theory",
+  "semesters": {
+    "Spring 2023": 1,
+    "Spring 2022": null
+  },
+  "SlackChannelLink": "https://utmscso.slack.com/archives/C02EW06DBD3",
+  "TextbookName": "Textbook Is A Very Long And Extensive Formal Lecture Notes Document That Was Written By The Professor And Can Be Found On His Website.",
+  "meta": {
+    "exams": "Mid-term (20%)\nFinal (30%)",
+    "proofs": "Homework proofs, though not extensive and no requisite knowledge needed.",
+    "projects": "",
+    "peer reviewed": "Peer review of HW needed every week to get your own grade (20% of grade)",
+    "homework": "12 Homeworks, lowest two are dropped (30% of grade)"
+  },
+  "GraphicUrl": "url('https://www.cs.utexas.edu/sites/default/files/quantum-hero.png')",
+  "PiazzaCommunityCount": 8,
+  "Teacher": "Scott Aaronson",
+  "season": {
+    "summer": false,
+    "spring": true,
+    "fall": false
+  },
+  "PiazzaCommunityAvg": 23.125,
+  "GraphicColor": "linear-gradient(90deg,rgba(191,87,0,0.85) 0%,rgba(248,151,31,0.70) 100%)",
+  "WorkloadCount": 8,
+  "dataScience": {
+    "isDataScience": false,
+    "category": "\"\""
+  },
+  "ProfessorQualityAvg": 23.125,
+  "SlackChannel": "quantum-information-science",
+  "WorkloadAvg": 20.125,
+  "BookUsefulnessAvg": 5.375,
+  "RatingAvg": 6.125,
+  "lastUpdated": {
+    "seconds": 1682878844,
+    "nanoseconds": 573000000
+  },
+  "CourseNumber": "CS 395T",
+  "ClassName": "Introduction to Quantum Information Science",
+  "DifficultyCount": 6.350600364358192,
+  "Textbook": true,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/csms-quantum-course-card.png",
+  "DifficultyAvg": 6.350600364358192
+}
+IAZUSC6rWscjs0XQvfpe => {
+  "ClassName": "Automated Logical Reasoning",
+  "LectureQualityCount": 8,
+  "semesters": {
+    "Spring 2022": 8
+  },
+  "languages": [],
+  "dataScience": {
+    "category": "",
+    "isDataScience": false
+  },
+  "ProfessorQualityAvg": 4,
+  "meta": {
+    "exams": "",
+    "proofs": "",
+    "projects": "",
+    "peer reviewed": "",
+    "homework": ""
+  },
+  "lastUpdated": {
+    "seconds": 1703022849,
+    "nanoseconds": 157000000
+  },
+  "GraphicUrl": "url('https://www.cs.utexas.edu/sites/default/files/CSMS_ALR--white_45o.png')",
+  "LectureQualityAvg": 4.5,
+  "CourseNumber": "CS 389L",
+  "Teacher": "IŞIL DILLIG",
+  "RatingCount": 8,
+  "BookUsefulnessAvg": 1.375,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/csms_alr_course-card.png",
+  "DifficultyAvg": 5.934734963112719,
+  "DifficultyCount": 5.934734963112719,
+  "category": "Theory",
+  "PiazzaCommunityAvg": 4,
+  "PiazzaCommunityCount": 8,
+  "WorkloadCount": 8,
+  "computerScience": {
+    "category": "Theory",
+    "isComputerScience": true
+  },
+  "RatingAvg": 3.875,
+  "ProfessorQualityCount": 8,
+  "Textbook": false,
+  "GraphicColor": "linear-gradient(90deg,rgba(191,87,0,0.85) 0%,rgba(248,151,31,0.70) 100%)",
+  "TextbookName": "",
+  "season": {
+    "spring": true,
+    "summer": false,
+    "fall": false
+  },
+  "WorkloadAvg": 22.875,
+  "BookUsefulnessCount": 8
+}
+LvJNm9v3GIu6IkfekmhD => {
+  "TextbookName": "\"Convex Optimization: Algorithms And Complexity\" By Sébastien Bubeck",
+  "ClassName": "Online Learning and Optimization",
+  "semesters": {
+    "Spring 2022": 14,
+    "Spring 2023": 1,
+    "Spring 2021": 3,
+    "Spring 2020": 2
+  },
+  "LectureQualityCount": 18,
+  "Prerequisites": "Optimization",
+  "meta": {
+    "exams": "2 Exams, one midterm and one final. Multiple choice, done via Edx",
+    "proofs": "",
+    "projects": "",
+    "peer reviewed": "All assignments are peer reviewed via Edx",
+    "homework": "14 Assignments - Assigned weekly for the most part -  All done using Google Colab"
+  },
+  "WorkloadAvg": 10.7,
+  "season": {
+    "summer": false,
+    "fall": false,
+    "spring": true
+  },
+  "ProfessorQualityCount": 18,
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CSANZ6DB5",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Online%20Learning_0.png)",
+  "DifficultyCount": 4.472333578712815,
+  "PiazzaCommunityAvg": 5.527777777777778,
+  "BookUsefulnessAvg": 3.611111111111111,
+  "SlackChannel": "online-learning",
+  "PiazzaCommunityCount": 18,
+  "WorkloadCount": 20,
+  "category": "Theory",
+  "LectureQualityAvg": 4.833333333333334,
+  "RatingCount": 20,
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Theory"
+  },
+  "languages": [
+    "Python"
+  ],
+  "Textbook": true,
+  "DifficultyAvg": 4.472333578712815,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/online-learning_course-card.png",
+  "CourseNumber": "CS 395T",
+  "BookUsefulnessCount": 18,
+  "dataScience": {
+    "isDataScience": false
+  },
+  "ProfessorQualityAvg": 5.527777777777778,
+  "Teacher": "Constantine Caramanis & Sanjay Shakkottai",
+  "lastUpdated": {
+    "seconds": 1698541225,
+    "nanoseconds": 165000000
+  },
+  "RatingAvg": 4.262499999999999
+}
+N5CR3pC9FdSCvYk9M8QQ => {
+  "semesters": {
+    "Spring 2020": 8,
+    "Spring 2021": 1,
+    "Spring 2022": 4,
+    "Spring 2023": null
+  },
+  "Prerequisites": "",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Algorithms_0.png)",
+  "languages": [
+    "No Code"
+  ],
+  "LectureQualityCount": 13,
+  "dataScience": {
+    "isDataScience": false,
+    "category": "foundations"
+  },
+  "lastUpdated": {
+    "seconds": 1698540632,
+    "nanoseconds": 299000000
+  },
+  "Textbook": true,
+  "RatingAvg": 3.4999999999999996,
+  "GraphicColor": "linear-gradient(0deg,rgba(51,63,72,0.71) 0%,rgba(214,210,196,0.84) 100%)",
+  "SlackChannel": "algorithms",
+  "ProfessorQualityAvg": 5.846153846153847,
+  "TextbookName": "Introduction To Algorithms",
+  "DifficultyCount": 6.689018991355637,
+  "PiazzaCommunityAvg": 5.846153846153847,
+  "WorkloadAvg": 23.07142857142857,
+  "computerScience": {
+    "category": "Theory",
+    "isComputerScience": true
+  },
+  "RatingCount": 21,
+  "BookUsefulnessCount": 13,
+  "WorkloadCount": 21,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/algorithms_course-card.png",
+  "ClassName": "Algorithms: Techniques and Theory",
+  "CourseNumber": "CS 388G",
+  "BookUsefulnessAvg": 4.230769230769231,
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CSQ33E21M",
+  "DifficultyAvg": 6.689018991355637,
+  "season": {
+    "spring": true,
+    "summer": false,
+    "fall": false
+  },
+  "ProfessorQualityCount": 13,
+  "review": "More work load with busy schedules and more number of problem sets and tests.",
+  "LectureQualityAvg": 3.5384615384615383,
+  "Teacher": "Vijaya Ramachandran & Greg Plaxton",
+  "meta": {
+    "homework": "These problem sets are highly theoretical and take an enormous amount of time. Start early!",
+    "proofs": "All of the problem sets and exams require written proofs. ",
+    "projects": "",
+    "exams": "One midterm and one final",
+    "peer reviewed": "The homeworks are all peer graded"
+  },
+  "category": "Theory",
+  "PiazzaCommunityCount": 13
+}
+Nrt4QH0IvEKOYKAw0qur => {
+  "PiazzaCommunityCount": 33,
+  "semesters": {
+    "Fall 2020": 5,
+    "Spring 2023": 4,
+    "Spring 2021": 2,
+    "Fall 2022": 6,
+    "Fall 2019": 3,
+    "Summer 2020": 8,
+    "Fall 2021": 8,
+    "Summer 2021": 9,
+    "Summer 2023": null,
+    "Spring 2020": 3,
+    "Fall 2023": 1
+  },
+  "ClassName": "Deep Learning",
+  "WorkloadCount": 52,
+  "PiazzaCommunityAvg": 5.121212121212122,
+  "ProfessorQualityCount": 33,
+  "category": "elective",
+  "LectureQualityAvg": 5.727272727272727,
+  "BookUsefulnessCount": 33,
+  "RatingAvg": 5.807692307692306,
+  "review": "Mostly this is a good class.  The lectures are excellent, and the five homework and one extra credit assignments are engaging and really help you learn how to apply the material.\n\nBut I hated the final project.  It was the single most stressful assignment I've ever had in any class I've ever taken.  You're given a nearly intractable problem (given the time/space constraints you have to work with) with no guidance and left to find the best solution you can come up with.  This by itself doesn't sound so bad, until you spend 20 hours debugging the C++ code of the simulator you're running in because it doesn't actually work the way it was shown in one of the class videos.  And then find that your experiment results are not reproducible and you get wildly different results depending on the underlying hardware of your Colab instance.\n\nPlan to spend more than 2 weeks on it, and plan for your results to look terrible no matter what.  You can still get an A in spite of that.",
+  "season": {
+    "spring": true,
+    "summer": true,
+    "fall": true
+  },
+  "dataScience": {
+    "isDataScience": true,
+    "category": "elective"
+  },
+  "DifficultyAvg": 5.392146498471267,
+  "ProfessorQualityAvg": 5.121212121212122,
+  "CourseNumber": "CS 394D",
+  "BookUsefulnessAvg": 0.18181818181818185,
+  "TextbookName": null,
+  "GraphicColor": "linear-gradient(0deg,rgba(51,63,72,0.71) 0%,rgba(214,210,196,0.84) 100%)",
+  "lastUpdated": {
+    "seconds": 1703272721,
+    "nanoseconds": 826000000
+  },
+  "RatingCount": 52,
+  "meta": {
+    "proofs": "",
+    "peer reviewed": "",
+    "homework": "30 short quizzes, worth 10% of final grade in total, all due near end of semester",
+    "projects": "Five homework assignments (60% of grade) plus a final project (30% of grade). You can work in teams of 4 for the final. 1 optional extra credit assignment can replace (not add to) one of the five regular homeworks.",
+    "exams": ""
+  },
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CNDN24AUC",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Deep%20Learning.png)",
+  "Textbook": false,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/deep-learning_course-card.png",
+  "WorkloadAvg": 16.932692307692303,
+  "SlackChannel": "deep-learning",
+  "DifficultyCount": 5.392146498471267,
+  "computerScience": {
+    "category": "Applications",
+    "isComputerScience": true
+  },
+  "Teacher": "Philipp Krähenbühl",
+  "languages": [
+    "Python"
+  ],
+  "LectureQualityCount": 33,
+  "Prerequisites": ""
+}
+X43EMEOmbFN6Kh5eGLjJ => {
+  "DifficultyCount": 4.852816318570296,
+  "Prerequisites": "(1) PROBABILITY: you should be well-versed. Topics you will need are Ch 1-5 and Ch7 from Blitzstein (http://probabilitybook.net/).\n\n(2) LINEAR ALGEBRA: used only for the PCA section. Topics you will need are Ch1, Ch2 and Ch9 from ALAFF (https://www.cs.utexas.edu/users/flame/laff/alaff/)\n\n(3) ML PROGRAMMING EXERCISES: attempt at least one Kaggle competition, to get versed with scikit-learn and Python. Try: https://www.kaggle.com/c/titanic",
+  "PiazzaCommunityCount": 39,
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CN63UPFQ9",
+  "languages": [
+    "Python"
+  ],
+  "Teacher": "Adam Klivans & Qiang Liu",
+  "ClassName": "Machine Learning",
+  "ProfessorQualityAvg": 5.166666666666666,
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "meta": {
+    "homework": "Homework was due every other week. Lots of theory questions with coding components on half of the assignments.",
+    "peer reviewed": "All homework assignments are peer graded",
+    "exams": "There are two final exams, one in the middle of the course (covering the first half's portion) and one at the end (covering the second half's portion). Both have a 30% weight each and are timed.",
+    "proofs": "You don't need to write formal proofs but you're going to need to understand how to structure an argument to form a logical conclusion.",
+    "projects": ""
+  },
+  "dataScience": {
+    "category": "elective",
+    "isDataScience": true
+  },
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Machine-Learning_75opacity.png)",
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/machine-learning_course-card.png",
+  "LectureQualityCount": 39,
+  "WorkloadCount": 59,
+  "SlackChannel": "machine-learning",
+  "Textbook": true,
+  "BookUsefulnessAvg": 3.3717948717948714,
+  "CourseNumber": "CS 391L",
+  "WorkloadAvg": 13.114406779661017,
+  "TextbookName": "Understanding Machine Learning From Theory To Algorithms",
+  "LectureQualityAvg": 4.589743589743589,
+  "review": "Pros:\n1. Professors do a great job of presenting theoretical material\n2. Lectures are largely self-contained (you don't really need to read textbooks outside of the provided notes)\n3. TAs are helpful and patient. Peer graders are generally encouraging and nice as well :)\n\nCons:\n1. It's a larger intro class, so some people might find the learning curve steep while other people have been exposed to the material before\n2. Peer grading can be hit-or-miss since there aren't clear guidelines for grading (you're given the solutions, but there isn't a standardized grading rubric)\n3. Problem sets can be time-consuming, especially if you want to typeset with LaTeX\n\nDetailed Review:\nI think that this course is a really solid introduction to ML theory. Given the complexity of the material, the professors really seem to make an effort at presenting the information in an intuitive but rigorous way.",
+  "PiazzaCommunityAvg": 5.166666666666666,
+  "RatingAvg": 4.4639830508474585,
+  "season": {
+    "spring": true,
+    "summer": true,
+    "fall": true
+  },
+  "semesters": {
+    "Summer 2023": 2,
+    "Fall 2020": 7,
+    "Spring 2022": 2,
+    "Fall 2023": 2,
+    "Spring 2021": 7,
+    "Spring 2020": 5,
+    "Fall 2019": 4,
+    "Fall 2022": 2,
+    "Spring 2023": 1,
+    "Summer 2022": 3,
+    "Summer 2021": 11,
+    "Fall 2021": 8
+  },
+  "BookUsefulnessCount": 39,
+  "ProfessorQualityCount": 39,
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Applications"
+  },
+  "RatingCount": 59,
+  "category": "Applications",
+  "DifficultyAvg": 4.852816318570296,
+  "lastUpdated": {
+    "seconds": 1701633116,
+    "nanoseconds": 42000000
+  }
+}
+bk4Gp4c7JnbLGFd8uv8G => {
+  "LectureQualityAvg": 5,
+  "Teacher": "Corwin Zigler",
+  "ProfessorQualityAvg": 4.533333333333333,
+  "computerScience": {
+    "isComputerScience": false,
+    "category": ""
+  },
+  "RatingAvg": 3.7999999999999994,
+  "GraphicThumbnail": "https://ms-datascience.utexas.edu/sites/default/files/2021-06/msds-course-card_dpci.png",
+  "WorkloadAvg": 10.933333333333334,
+  "CourseNumber": "DSC 384",
+  "ClassName": "Design Principles & Causal Inference",
+  "season": {
+    "fall": true,
+    "summer": true,
+    "spring": false
+  },
+  "WorkloadCount": 15,
+  "lastUpdated": {
+    "seconds": 1703172989,
+    "nanoseconds": 486000000
+  },
+  "GraphicColor": "linear-gradient(180deg,rgba(248,151,31,0.71) 0%,rgba(191,87,0,0.84) 100%)",
+  "LectureQualityCount": 15,
+  "Textbook": true,
+  "BookUsefulnessCount": 15,
+  "PiazzaCommunityAvg": 4.4,
+  "Prerequisites": "Regression",
+  "TextbookName": "Gelman, Hill And Vehtari, Regression And Other Stories [Required]",
+  "DifficultyCount": 6.163192077730973,
+  "category": "elective",
+  "ProfessorQualityCount": 15,
+  "RatingCount": 15,
+  "meta": {
+    "peer reviewed": "Quizzes only (5% of final grade)",
+    "projects": "",
+    "exams": "Midterm (25% of final grade) and Final (30% of final grade)",
+    "proofs": "",
+    "homework": "Multiple choice, but tricky/subtle correct answers. 40% of final grade. All homework assignments count toward final grade (no drops)."
+  },
+  "SlackChannel": "",
+  "dataScience": {
+    "category": "elective",
+    "isDataScience": true
+  },
+  "DifficultyAvg": 4.2724886623647675,
+  "PiazzaCommunityCount": 15,
+  "BookUsefulnessAvg": 4.133333333333333,
+  "GraphicUrl": "url(https://ms-datascience.utexas.edu/sites/default/files/2021-06/msds_dpci_logo.png)",
+  "languages": [
+    "R"
+  ],
+  "semesters": {
+    "Summer 2022": 2,
+    "Fall 2023": null,
+    "Fall 2021": 9
+  },
+  "SlackChannelLink": ""
+}
+e8GTVf7bP5NH8H8rlzE7 => {
+  "TextbookName": "\"Probability And Computing\", Michael Mitzenmacher And Eli Upfal,\nSecond Edition\n ||| \n\"Statistics - Unlocking The Power Of Data\", Lock, Third Edition (Optional But Strongly Encouraged)",
+  "GraphicThumbnail": "https://ms-datascience.utexas.edu/sites/default/files/2020-09/probability-card.png",
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "ProfessorQualityCount": 26,
+  "CourseNumber": "DSC 381",
+  "ProfessorQualityAvg": 6.076923076923077,
+  "category": "foundations",
+  "WorkloadAvg": 7.999999999999999,
+  "BookUsefulnessAvg": 3.192307692307692,
+  "meta": {
+    "projects": "",
+    "homework": "13 Homeworks. The professors describe the class as \"inverted\" with the homeworks being the hardest part of the course and taking the most time. 30% of final grade. Lowest two homework scores dropped. A few problems use R, but there is very little coding in this course.",
+    "proofs": "Several homework problems, not on quizzes or exams. Answers are multiple choice.",
+    "peer reviewed": "",
+    "exams": "Two exams, one midterm and one final (2 hrs each) and six quizzes (30 mins each). Exams are worth 20% of final grade each, quizzes are worth 30% of final grade total. Lowest two quiz scores dropped. "
+  },
+  "BookUsefulnessCount": 26,
+  "dataScience": {
+    "category": "foundations",
+    "isDataScience": true
+  },
+  "RatingCount": 26,
+  "LectureQualityAvg": 4.730769230769233,
+  "SlackChannelLink": "",
+  "GraphicUrl": "url(https://ms-datascience.utexas.edu/sites/default/files/2020-09/probability-hero.png)",
+  "DifficultyCount": 4.428532202635922,
+  "semesters": {
+    "Fall 2021": 7,
+    "Fall 2023": null,
+    "Spring 2022": 1,
+    "Spring 2023": null,
+    "Spring 2021": 12,
+    "Fall 2022": null
+  },
+  "Teacher": "Mary Parker & Peter Müller",
+  "ClassName": "Probability & Inference",
+  "computerScience": {
+    "isComputerScience": false,
+    "category": ""
+  },
+  "LectureQualityCount": 26,
+  "WorkloadCount": 26,
+  "season": {
+    "fall": true,
+    "spring": true,
+    "summer": false
+  },
+  "lastUpdated": {
+    "seconds": 1702320513,
+    "nanoseconds": 966000000
+  },
+  "languages": [
+    "R"
+  ],
+  "PiazzaCommunityAvg": 5.923076923076923,
+  "Prerequisites": "",
+  "PiazzaCommunityCount": 26,
+  "RatingAvg": 5.326923076923077,
+  "Textbook": true,
+  "DifficultyAvg": 3.783382912861924,
+  "SlackChannel": ""
+}
+kIaiNk3OCH1iMk8ab3oN => {
+  "computerScience": {
+    "category": "",
+    "isComputerScience": false
+  },
+  "DifficultyAvg": 1.4613238170194733,
+  "Textbook": true,
+  "ClassName": "Data Exploration & Visualization",
+  "PiazzaCommunityCount": 19,
+  "GraphicUrl": "url(https://ms-datascience.utexas.edu/sites/default/files/2021-06/msds_dev_logo.png)",
+  "SlackChannel": "",
+  "lastUpdated": {
+    "seconds": 1699423227,
+    "nanoseconds": 530000000
+  },
+  "RatingAvg": 6.105263157894735,
+  "LectureQualityAvg": 6.7368421052631575,
+  "category": "elective",
+  "TextbookName": "\"Fundamentals Of Data Visualization\", Claus O. Wilke, Free Online At Https://clauswilke.com/dataviz/\n",
+  "dataScience": {
+    "isDataScience": true,
+    "category": "elective"
+  },
+  "ProfessorQualityAvg": 5.842105263157895,
+  "Teacher": "Claus O. Wilke",
+  "ProfessorQualityCount": 19,
+  "DifficultyCount": 1.4613238170194733,
+  "Prerequisites": "",
+  "languages": [
+    "R"
+  ],
+  "CourseNumber": "DSC 385",
+  "season": {
+    "summer": false,
+    "spring": true,
+    "fall": true
+  },
+  "BookUsefulnessCount": 19,
+  "meta": {
+    "exams": "",
+    "peer reviewed": "All homework assignments and projects are peer graded.",
+    "proofs": "",
+    "projects": "4 longer, in-depth, peer-graded projects, worth 70% of final grade.",
+    "homework": "6 short, peer-graded homework assignments, worth 19% of total grade. Remaining 11% of grade is Piazza participation."
+  },
+  "WorkloadCount": 19,
+  "RatingCount": 19,
+  "SlackChannelLink": "",
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "semesters": {
+    "Spring 2023": null,
+    "Fall 2022": 5,
+    "Spring 2022": 12
+  },
+  "GraphicThumbnail": "https://ms-datascience.utexas.edu/sites/default/files/2021-06/msds-course-card_dev_0.png",
+  "BookUsefulnessAvg": 3.736842105263159,
+  "LectureQualityCount": 19,
+  "PiazzaCommunityAvg": 5.842105263157895,
+  "WorkloadAvg": 4.7894736842105265
+}
+mWhLw0rASWzGHdgKuR1F => {
+  "meta": {
+    "peer reviewed": "Some HW are peer graded, others are machine-graded multiple choice",
+    "proofs": "Some proofs on peer-graded HW",
+    "homework": "12 homework assignments, lowest 2 scores dropped (100% of final grade). Some assignments require coding to solve, but you can use any language you like (example code is in R).",
+    "exams": "",
+    "projects": ""
+  },
+  "semesters": {
+    "Summer 2021": 5,
+    "Spring 2023": 3,
+    "Spring 2022": 4,
+    "Summer 2022": 5,
+    "Summer 2023": 3
+  },
+  "category": "foundations",
+  "Prerequisites": "Probability helps, but not required",
+  "ProfessorQualityCount": 20,
+  "BookUsefulnessAvg": 0.09999999999999999,
+  "PiazzaCommunityAvg": 4.249999999999999,
+  "GraphicUrl": "url(https://ms-datascience.utexas.edu/sites/default/files/2020-09/regression-hero.png)",
+  "Teacher": "Stephen Walker",
+  "BookUsefulnessCount": 20,
+  "GraphicColor": "linear-gradient(180deg,rgba(248,151,31,0.71) 0%,rgba(191,87,0,0.84) 100%)",
+  "dataScience": {
+    "category": "foundations",
+    "isDataScience": true
+  },
+  "LectureQualityAvg": 2.400000000000001,
+  "Textbook": false,
+  "WorkloadAvg": 8.125,
+  "SlackChannel": "",
+  "SlackChannelLink": "",
+  "WorkloadCount": 20,
+  "TextbookName": null,
+  "GraphicThumbnail": "https://ms-datascience.utexas.edu/sites/default/files/2020-10/dsms_rgr_course-card.png",
+  "RatingAvg": 2.6999999999999993,
+  "PiazzaCommunityCount": 20,
+  "computerScience": {
+    "isComputerScience": false,
+    "category": ""
+  },
+  "ClassName": "Regression & Predictive Modeling",
+  "DifficultyCount": 3.6564371433307805,
+  "LectureQualityCount": 20,
+  "DifficultyAvg": 3.6564371433307805,
+  "season": {
+    "summer": true,
+    "spring": true,
+    "fall": false
+  },
+  "RatingCount": 20,
+  "ProfessorQualityAvg": 4.249999999999999,
+  "lastUpdated": {
+    "seconds": 1698798131,
+    "nanoseconds": 416000000
+  },
+  "CourseNumber": "DSC 382",
+  "languages": [
+    "R"
+  ]
+}
+mo9qKuPLjxdcY1gGQcor => {
+  "GraphicColor": "linear-gradient(0deg,rgba(51,63,72,0.71) 0%,rgba(214,210,196,0.84) 100%)",
+  "RatingAvg": 5.142857142857143,
+  "ProfessorQualityCount": 7,
+  "BookUsefulnessAvg": 1,
+  "season": {
+    "fall": false,
+    "summer": true,
+    "spring": true
+  },
+  "meta": {
+    "exams": "",
+    "homework": "Weekly assignments, first half of course is in R, second half of course in Python.",
+    "proofs": "",
+    "peer reviewed": "",
+    "projects": ""
+  },
+  "LectureQualityAvg": 5.142857142857143,
+  "PiazzaCommunityCount": 7,
+  "Teacher": "Catherine Calder & Purnamrita Sarkar",
+  "lastUpdated": {
+    "seconds": 1696871301,
+    "nanoseconds": 308000000
+  },
+  "DifficultyAvg": 4.233003390031906,
+  "dataScience": {
+    "isDataScience": true,
+    "category": "elective"
+  },
+  "DifficultyCount": 4.233003390031906,
+  "SlackChannel": "",
+  "Prerequisites": "",
+  "LectureQualityCount": 7,
+  "category": "elective",
+  "Textbook": false,
+  "languages": [
+    "Python",
+    "R"
+  ],
+  "CourseNumber": "DSC 383",
+  "WorkloadAvg": 8.5,
+  "GraphicUrl": "url(https://ms-datascience.utexas.edu/sites/default/files/2021-06/msds_apm_logo.png)",
+  "RatingCount": 7,
+  "ProfessorQualityAvg": 4.714285714285714,
+  "SlackChannelLink": "",
+  "WorkloadCount": 7,
+  "PiazzaCommunityAvg": 4.714285714285714,
+  "GraphicThumbnail": "https://ms-datascience.utexas.edu/sites/default/files/2021-06/_ds-edx-course-cards.png",
+  "semesters": {
+    "Summer 2022": 1,
+    "Spring 2023": 2,
+    "Spring 2022": 1,
+    "Summer 2023": null
+  },
+  "TextbookName": null,
+  "computerScience": {
+    "isComputerScience": false,
+    "category": ""
+  },
+  "BookUsefulnessCount": 7,
+  "ClassName": "Advanced Predictive Models"
+}
+n9K6hICtMfbonUzzWPcj => {
+  "RatingAvg": 4.9196428571428585,
+  "BookUsefulnessCount": 18,
+  "PiazzaCommunityCount": 18,
+  "dataScience": {
+    "isDataScience": false
+  },
+  "Prerequisites": "",
+  "WorkloadAvg": 10.839285714285712,
+  "semesters": {
+    "Spring 2022": 9,
+    "Spring 2021": 4,
+    "Spring 2020": 5,
+    "Fall 2020": 3,
+    "Spring 2023": null,
+    "Fall 2019": 2,
+    "Summer 2022": 3
+  },
+  "languages": [
+    "C"
+  ],
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Systems"
+  },
+  "Teacher": "Vijay Chidambaram",
+  "Textbook": true,
+  "RatingCount": 28,
+  "GraphicColor": "linear-gradient(180deg,rgba(248,151,31,0.71) 0%,rgba(191,87,0,0.84) 100%)",
+  "BookUsefulnessAvg": 5.666666666666666,
+  "ClassName": "Advanced Operating Systems",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Operating%20Systems_0.png)",
+  "season": {
+    "summer": true,
+    "fall": true,
+    "spring": true
+  },
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CN2Q65ZB5",
+  "ProfessorQualityCount": 18,
+  "PiazzaCommunityAvg": 5.222222222222221,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/operating-systems_course-card.png",
+  "ProfessorQualityAvg": 5.222222222222221,
+  "meta": {
+    "exams": "There's one midterm and one final",
+    "projects": "The course has 5 projects, all written in C. \nProjects 2-5 focus on the xv6 virtual OS.",
+    "proofs": "",
+    "homework": "",
+    "peer reviewed": ""
+  },
+  "CourseNumber": "CS 380L",
+  "DifficultyCount": 4.177519121709592,
+  "category": "Systems",
+  "LectureQualityAvg": 4.555555555555555,
+  "DifficultyAvg": 4.177519121709592,
+  "review": "Pros:\n1. Not to difficult.\n2. \n3. \n\nCons:\n1. Class is slow.\n2. Projects are not covered very well.\n3. \n\nDetailed Review:\n",
+  "WorkloadCount": 28,
+  "LectureQualityCount": 18,
+  "lastUpdated": {
+    "seconds": 1698264276,
+    "nanoseconds": 483000000
+  },
+  "SlackChannel": "advanced-operating-systems",
+  "TextbookName": "\"Operating Systems: The Three Easy Pieces\" By Remzi Arpaci-dusseau"
+}
+sXAHdGqg1FfLblatkXon => {
+  "season": {
+    "spring": true,
+    "summer": true,
+    "fall": true
+  },
+  "semesters": {
+    "Fall 2022": null,
+    "Spring 2020": 6,
+    "Fall 2023": 6,
+    "Summer 2020": 14
+  },
+  "languages": [
+    "Python"
+  ],
+  "ProfessorQualityCount": 14,
+  "DifficultyCount": 4.20839032301989,
+  "BookUsefulnessAvg": 4.857142857142858,
+  "dataScience": {
+    "isDataScience": true
+  },
+  "lastUpdated": {
+    "seconds": 1702904915,
+    "nanoseconds": 900000000
+  },
+  "category": "Applications",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Reinforcement%20Learning_0.png)",
+  "PiazzaCommunityAvg": 4.6428571428571415,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/reinforcement-learning_course-card.png",
+  "BookUsefulnessCount": 14,
+  "Textbook": true,
+  "CourseNumber": "CS 394R",
+  "WorkloadCount": 33,
+  "Teacher": "Peter Stone & Scott Niekum",
+  "GraphicColor": "linear-gradient(180deg,rgba(248,151,31,0.71) 0%,rgba(191,87,0,0.84) 100%)",
+  "TextbookName": "\"Reinforcement Learning: An Introduction\" By Sutton",
+  "DifficultyAvg": 4.20839032301989,
+  "WorkloadAvg": 10.818181818181815,
+  "meta": {
+    "proofs": "",
+    "exams": "There is one final exam",
+    "homework": "Weekly homework questions, multiple choice, and are completed via edX",
+    "peer reviewed": "",
+    "projects": "There are several coding assignments throughout the course where you implement RL algorithms from pseudocode given in the book."
+  },
+  "LectureQualityCount": 14,
+  "computerScience": {
+    "category": "Applications",
+    "isComputerScience": true
+  },
+  "ProfessorQualityAvg": 4.6428571428571415,
+  "PiazzaCommunityCount": 14,
+  "RatingCount": 33,
+  "RatingAvg": 4.242424242424243,
+  "SlackChannel": "reinforcement-learning",
+  "Prerequisites": "",
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CSMPBG22G",
+  "LectureQualityAvg": 3.428571428571428,
+  "ClassName": "Reinforcement Learning"
+}
+tpUY765txmJcCdIh94cp => {
+  "BookUsefulnessCount": 8,
+  "BookUsefulnessAvg": 0.375,
+  "ClassName": "Implementation of Programming Languages",
+  "SlackChannel": "",
+  "TextbookName": "Some Text",
+  "ProfessorQualityCount": 8,
+  "dataScience": {
+    "isDataScience": false,
+    "category": ""
+  },
+  "GraphicUrl": "url('https://www.cs.utexas.edu/sites/default/files/csms_simpl_course-hero.png')",
+  "lastUpdated": {
+    "seconds": 1699572231,
+    "nanoseconds": 57000000
+  },
+  "LectureQualityAvg": 5.875,
+  "ProfessorQualityAvg": 4,
+  "CourseNumber": "CS 395T",
+  "languages": [],
+  "WorkloadAvg": 14.3125,
+  "DifficultyCount": 4.861825107422146,
+  "RatingCount": 8,
+  "Textbook": false,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/csms_simpl_course-card.png",
+  "season": {
+    "spring": false,
+    "summer": true,
+    "fall": true
+  },
+  "RatingAvg": 5.499999999999999,
+  "Teacher": "Siddhartha Chatterjee",
+  "SlackChannelLink": "",
+  "GraphicColor": "background-image: linear-gradient(90deg,rgba(0,95,134,0.85) 0%,rgba(51,63,72,0.70) 100%)",
+  "semesters": {
+    "Fall 2021": 5,
+    "Summer 2022": 3
+  },
+  "PiazzaCommunityCount": 8,
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Elective"
+  },
+  "LectureQualityCount": 8,
+  "Prerequisites": "",
+  "PiazzaCommunityAvg": 4,
+  "WorkloadCount": 8,
+  "category": "Elective",
+  "DifficultyAvg": 4.861825107422146,
+  "meta": {
+    "proofs": "",
+    "projects": "",
+    "peer reviewed": "",
+    "exams": "",
+    "homework": ""
+  }
+}
+xCIi3ChG34eioPt7XsLa => {
+  "PiazzaCommunityAvg": 4.653846153846153,
+  "DifficultyAvg": 4.8376984575042155,
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Systems"
+  },
+  "PiazzaCommunityCount": 13,
+  "TextbookName": "Principles Of Parallel Programming",
+  "GraphicUrl": "url(https://www.cs.utexas.edu/sites/default/files/images/Parallel%20Systems.png)",
+  "DifficultyCount": 4.8376984575042155,
+  "RatingCount": 25,
+  "ProfessorQualityCount": 13,
+  "GraphicThumbnail": "https://www.cs.utexas.edu/sites/default/files/images/parallel-systems_course-card.png",
+  "languages": [
+    "C++",
+    "GoLang",
+    "Rust"
+  ],
+  "SlackChannelLink": "https://utmscso.slack.com/archives/CNDQB525S",
+  "WorkloadAvg": 21.679999999999996,
+  "CourseNumber": "CS 380P",
+  "BookUsefulnessCount": 13,
+  "meta": {
+    "exams": "",
+    "proofs": "",
+    "homework": "",
+    "peer reviewed": "",
+    "projects": "The course consists of 5 major projects, each of which can easily take 40+ hours to complete."
+  },
+  "RatingAvg": 6.260000000000001,
+  "season": {
+    "fall": true,
+    "spring": false,
+    "summer": false
+  },
+  "LectureQualityAvg": 5.23076923076923,
+  "BookUsefulnessAvg": 1.769230769230769,
+  "category": "Systems",
+  "dataScience": {
+    "isDataScience": false
+  },
+  "GraphicColor": "linear-gradient(180deg,rgba(248,151,31,0.71) 0%,rgba(191,87,0,0.84) 100%)",
+  "LectureQualityCount": 13,
+  "ClassName": "Parallel Systems",
+  "SlackChannel": "parallel-systems",
+  "Textbook": true,
+  "Teacher": "Calvin Lin & Chris Rossbach",
+  "WorkloadCount": 25,
+  "semesters": {
+    "Fall 2022": 4,
+    "Fall 2020": 7,
+    "Fall 2021": 5,
+    "Fall 2019": 7,
+    "Fall 2023": null
+  },
+  "lastUpdated": {
+    "seconds": 1702495039,
+    "nanoseconds": 97000000
+  },
+  "ProfessorQualityAvg": 4.5
+}
+xh5iCvg2W375tBaFDtHB => {
+  "Prerequisites": "",
+  "GraphicThumbnail": "https://ms-datascience.utexas.edu/sites/default/files/2021-06/msds-course-card_dev_0.png",
+  "LectureQualityCount": 1,
+  "SlackChannelLink": "",
+  "ClassName": "Thesis Option",
+  "BookUsefulnessAvg": 0,
+  "BookUsefulnessCount": 1,
+  "GraphicUrl": "url(https://ms-datascience.utexas.edu/sites/default/files/2021-06/msds_dev_logo.png)",
+  "PiazzaCommunityCount": 1,
+  "languages": [],
+  "WorkloadAvg": 20,
+  "category": "Thesis",
+  "TextbookName": null,
+  "CourseNumber": "CS 698A/B",
+  "dataScience": {
+    "category": "",
+    "isDataScience": false
+  },
+  "RatingAvg": 6,
+  "LectureQualityAvg": 7,
+  "WorkloadCount": 1,
+  "PiazzaCommunityAvg": 7,
+  "Teacher": "Varies Based On Student's Area Of Interest",
+  "RatingCount": 1,
+  "meta": {
+    "homework": "",
+    "projects": "One really big project called a \"Thesis\" which is like 30-40 pages long and based on original research.",
+    "exams": "",
+    "peer reviewed": "You have one \"reader\", another professor who reads your Thesis.",
+    "proofs": ""
+  },
+  "SlackChannel": "thesis-option",
+  "Textbook": false,
+  "GraphicColor": "linear-gradient(180deg,rgba(51,63,72,0.71) 0%,rgba(0,95,134,0.84) 100%)",
+  "DifficultyAvg": 6,
+  "ProfessorQualityAvg": 7,
+  "DifficultyCount": 6,
+  "computerScience": {
+    "isComputerScience": true,
+    "category": "Thesis"
+  },
+  "semesters": {
+    "Fall 2023": null
+  },
+  "lastUpdated": {
+    "seconds": 1703011129,
+    "nanoseconds": 752000000
+  },
+  "season": {
+    "fall": true,
+    "spring": false,
+    "summer": false
+  },
+  "ProfessorQualityCount": 1
+}
