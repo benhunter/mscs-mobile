@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ben_hunter.mscsmobile"
+      "package": "com.benhunter.mscsmobile"
     },
     "web": {
       "favicon": "./assets/favicon.png",
