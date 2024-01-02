@@ -3,7 +3,6 @@ import {Box, Heading, Pressable, ScrollView, Spinner, Text, View, VStack} from "
 import {collection, getDocs, getFirestore} from "firebase/firestore";
 import {app} from "../firebaseConfig";
 import {Link} from "expo-router";
-import {useSafeAreaInsets} from "react-native-safe-area-context";
 
 export type Course = {
   id: string,
@@ -11,6 +10,8 @@ export type Course = {
   ClassName: string,
   CourseNumber: string,
   category: string,
+  GraphicThumbnail: string,
+  GraphicUrl: string,
   debug: string
 }
 
@@ -51,7 +52,7 @@ export const CoursesProvider: React.FC<CoursesProviderProps> = ({children}) => {
   </CoursesContext.Provider>
 }
 
-export const CoursesContext = React.createContext<Course[]>(null);
+export const CoursesContext = React.createContext<Course[]>([]);
 
 export const useCourses = () => React.useContext(CoursesContext);
 

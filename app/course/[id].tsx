@@ -4,14 +4,15 @@ import {
   BadgeIcon,
   BadgeText,
   Box,
-  Center,
   Divider,
   GlobeIcon,
   Heading,
+  Image,
   ScrollView,
-  Text, View
+  Text,
+  View
 } from '@gluestack-ui/themed';
-import {Stack, useLocalSearchParams} from 'expo-router'
+import {useLocalSearchParams} from 'expo-router'
 
 import {Course, useCourses} from "../../components/Courses";
 
@@ -19,6 +20,10 @@ export default function () {
   const {id} = useLocalSearchParams();
   const courses = useCourses();
   const selectedCourse = courses.find(course => course.id === id);
+
+  if (!selectedCourse) {
+    return <Heading>Course not found</Heading>
+  }
 
   return <CourseDetails course={selectedCourse}/>;
 }
@@ -29,7 +34,8 @@ type CourseDetailsProps = {
 
 function CourseDetails({course}: CourseDetailsProps) {
   useEffect(() => {
-    console.log('CourseDetails', course.id)
+    console.log('CourseDetails', course.id);
+    console.log('Course GraphicUrl', course.GraphicUrl);
   }, []);
 
   const category = course.category.charAt(0).toUpperCase() + course.category.slice(1)
@@ -54,18 +60,22 @@ function CourseDetails({course}: CourseDetailsProps) {
       p="$4"
     >
       <Text>Professor: {course.Teacher}</Text>
-      <Text>Category: <Text bold>{category}</Text></Text>
+      {/*<Text>Category: <Text bold>{category}</Text></Text>*/}
 
       <View
-        // width="$10"
+        alignSelf="flex-start"
+        p="$2"
       >
-        <Badge size="md" variant="solid" borderRadius="$lg" action="muted"
-               // width="$full"
+        <Badge size="lg" variant="outline" borderRadius="$lg" action="muted"
         >
-          <BadgeText>TODO why full width? {category}</BadgeText>
+          <BadgeText>{category}</BadgeText>
           <BadgeIcon as={GlobeIcon} ml="$2"/>
         </Badge>
       </View>
+
+      <Image
+        source={{uri: course.GraphicThumbnail}}
+      />
 
     </Box>
     <Divider my="$0"/>
