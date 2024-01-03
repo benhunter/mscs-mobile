@@ -11,10 +11,6 @@ const defaultFeatureFlags: FeatureFlags = {
   courseDetailsImages: false,
 }
 
-interface FeatureFlagsProviderProps {
-  children: React.ReactNode
-}
-
 export const FeatureFlagsProvider: React.FC<{ children: React.ReactNode }> = ({children}) => {
   let [features, setFeatures] = useState<FeatureFlags>(defaultFeatureFlags)
 
