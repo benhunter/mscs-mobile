@@ -4,6 +4,7 @@ import {collection, getDocs, getFirestore} from "firebase/firestore";
 import {app} from "../firebaseConfig";
 import {Link} from "expo-router";
 
+
 export type Course = {
   id: string,
   Teacher: string;
@@ -12,6 +13,53 @@ export type Course = {
   category: string,
   GraphicThumbnail: string,
   GraphicUrl: string,
+  RatingAvg: Number,
+  BookUsefulnessCount: Number,
+  PiazzaCommunityCount: Number,
+  dataScience: {
+    isDataScience: boolean,
+  }
+  Prerequisites: string,
+  WorkloadAvg: Number,
+  semesters: Object,
+  languages: [string],
+  computerScience: {
+    isComputerScience: boolean,
+    category: string,
+  }
+  Textbook: boolean,
+  RatingCount: Number,
+  GraphicColor: string,
+  BookUsefulnessAvg: Number,
+  season: {
+    summer: boolean,
+    fall: boolean,
+    spring: boolean,
+  },
+  SlackChannelLink: string,
+  ProfessorQualityCount: Number,
+  PiazzaCommunityAvg: Number,
+  ProfessorQualityAvg: Number,
+  meta: {
+    exams: string,
+    projects: string,
+    proofs: string,
+    homework: string,
+    peerReviewed: string,
+  },
+  DifficultyCount: Number,
+  LectureQualityAvg: Number,
+  DifficultyAvg: Number,
+  review: string,
+  WorkloadCount: Number,
+  LectureQualityCount: Number,
+  lastUpdated: {
+    seconds: number,
+    nanoseconds: number,
+  },
+  SlackChannel: string,
+  TextbookName: string,
+
   debug: string
 }
 
@@ -136,6 +184,7 @@ export const CoursesList = ({courses}: CoursesListProps) => {
     {/*>Courses</Heading>*/}
     <ScrollView width="100%" height="100%" pb="$0" mb="$16" mx="$0">
       <VStack
+        pt="$1"
         pb="$16"
         mx="$2"
       >
