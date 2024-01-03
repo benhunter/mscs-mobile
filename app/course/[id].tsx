@@ -1,17 +1,5 @@
 import React, {useEffect} from "react";
-import {
-  Badge,
-  BadgeIcon,
-  BadgeText,
-  Box,
-  Divider,
-  GlobeIcon,
-  Heading, HStack,
-  Image,
-  ScrollView,
-  Text,
-  View, VStack
-} from '@gluestack-ui/themed';
+import {Badge, BadgeText, Box, Divider, Heading, HStack, Image, ScrollView, Text, VStack} from '@gluestack-ui/themed';
 import {useLocalSearchParams} from 'expo-router'
 
 import {Course, useCourses} from "../../components/Courses";
@@ -81,7 +69,7 @@ function CourseDetails({course}: CourseDetailsProps) {
       {course.Teacher &&
           <HStack m="$2">
               <Text size="sm" mr="$4">Professor</Text>
-              <Text>{course.Teacher}</Text>
+              <Text style={{flexShrink: 1}}>{course.Teacher}</Text>
           </HStack>}
 
       <HStack m="$2">
@@ -115,33 +103,27 @@ function CourseDetails({course}: CourseDetailsProps) {
           <Text size="sm" mr="$4">Textbook</Text>
         </VStack>
         {(course.Textbook && course.TextbookName) ?
-          <Text>{course.TextbookName}</Text>
-          : <Text>None</Text>
-        }
+          <Text style={{flexShrink: 1}}>{course.TextbookName}</Text>
+          : <Text style={{flexShrink: 1}}>None</Text>}
       </HStack>
 
       {course.meta.exams &&
-          <VStack m="$2">
-              <Text size="sm">Exams</Text>
-              <Text>{course.meta.exams}</Text>
-          </VStack>
-      }
+          <HStack m="$2">
+              <Text size="sm" mr="$4">Exams</Text>
+              <Text style={{flexShrink: 1}}>{course.meta.exams}</Text>
+          </HStack>}
 
-      {
-        course.meta.projects &&
+      {course.meta.projects &&
           <HStack m="$2">
               <Text size="sm" mr="$4">Projects</Text>
-              <Text>{course.meta.projects}</Text>
-          </HStack>
-      }
+              <Text style={{flexShrink: 1}}>{course.meta.projects}</Text>
+          </HStack>}
 
-      {
-        course.meta.homework &&
+      {course.meta.homework &&
           <HStack m="$2">
               <Text size="sm" mr="$4">Homework</Text>
-              <Text>{course.meta.homework}</Text>
-          </HStack>
-      }
+              <Text style={{flexShrink: 1}}>{course.meta.homework}</Text>
+          </HStack>}
 
       {features.courseDetailsImages && <>
           <HStack m="$2">
